@@ -1,0 +1,10 @@
+winsound
+pydub
+tkinter
+matplotlib
+wave
+shutil
+Audisegment
+glob
+numpy
+time
