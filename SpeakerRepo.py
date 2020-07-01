@@ -1,17 +1,17 @@
 ##################################
-import matplotlib.pyplot as plt
-import os
 import glob
-import wave
-import numpy as np
+import os
 import sys
-import winsound
-import tkinter as tk
-from tkinter import filedialog
-from shutil import copyfile
-import warnings
-from pydub import AudioSegment
 import time
+import tkinter as tk
+import warnings
+import wave
+from shutil import copyfile
+from tkinter import filedialog
+
+import matplotlib.pyplot as plt
+import numpy as np
+import winsound
 
 #################################
 
