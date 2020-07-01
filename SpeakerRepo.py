@@ -50,7 +50,7 @@ def matchingMaxProb(wav1,wav2):
             if wav1[itr1]==wav2[itr2]:
                 count+=1
         itr2+=1
-    # if 1/4 Result is Same there is A good Enough Probability to be Matched
+    # if 1/4 Result is Same there is A good Enough Probability to be Matched function
     if count< (wav1.size/4):
         count=0
         itr2=0
