@@ -160,7 +160,7 @@ if check:
 
     else:
         print("Thank You!!!")
-        time.sleep(10)
+        time.sleep(12)
 else:
     print("Only .wav and .mp3 files Are Acceptable....")
     sys.exit()
