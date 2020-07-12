@@ -13,6 +13,13 @@ import matplotlib.pyplot as plt
 import numpy as np
 import winsound
 
+
+############ for recording thr voice
+
+
+
+
+
 #################################
 
 # For Ignoring the Deprecated Function Warnings
@@ -86,20 +93,20 @@ root.withdraw()
 data =filedialog.askopenfilename()
 ###########################
 #checking extension of the File and Conversion accordingly
-check = True
-given = ''
-if data.partition(".")[2]=="mp3":
+##check = True
+##given = ''
+##if data.partition(".")[2]=="mp3":
     #### If you are Getting Errors then just Try the .wav files Your System Path(ffmpeg/bin)missing
     #### or your ffprobe is missing .. You can Convert Any File From This site https://online-audio-converter.com/
 
     ## These Lines Will convert The .mp3 file to .wav file For Fast comparison
-    given = data.partition(".")[0] + ".wav"
+    ##given = data.partition(".")[0] + ".wav"
     #sound=AudioSegment.from_mp3(data).export(data.partition(".")[0]+".wav",format="wav")
-elif data.partition(".")[2]=='wav':
-    given = data
-else:
+##elif data.partition(".")[2]=='wav':
+    ##given = data
+##else:
     # if Other Then mp3 or wav file is given It will not go further
-    check = False
+  ##  check = False
 ##################################
 if check:
     i = 0
@@ -154,13 +161,13 @@ if check:
             print("Additional Directory Created.")
         except OSError as error:
             print("")
-        name=input("Enter File Name : ")
-        #Copying The File to its dataBase
-        copyfile(given,path+"/"+name+".wav")
+
 
     else:
         print("Thank You!!!")
         time.sleep(12)
 else:
     print("Only .wav and .mp3 files Are Acceptable....")
-    sys.exit()
+    sys.exit()    name=input("Enter File Name : ")
+        #Copying The File to its dataBase
+        copyfile(given,path+"/"+name+".wav")
