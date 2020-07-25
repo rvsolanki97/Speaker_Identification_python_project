@@ -175,3 +175,8 @@ else:
     sys.exit()    name=input("Enter File Name : ")
         #Copying The File to its dataBase
         copyfile(given,path+"/"+name+".wav")
+
+
+
+
+    
