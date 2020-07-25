@@ -177,6 +177,3 @@ else:
         copyfile(given,path+"/"+name+".wav")
 
 
-
-
-    
