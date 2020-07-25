@@ -108,6 +108,10 @@ data =filedialog.askopenfilename()
     # if Other Then mp3 or wav file is given It will not go further
   ##  check = False
 ##################################
+
+
+
+
 if check:
     i = 0
     dirt = []
