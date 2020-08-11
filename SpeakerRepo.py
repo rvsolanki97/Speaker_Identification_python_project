@@ -167,13 +167,20 @@ if check:
             print("")
 
 
+
+
+
     else:
         print("Thank You!!!")
         time.sleep(12)
 else:
     print("Only .wav and .mp3 files Are Acceptable....")
-    sys.exit()    name=input("Enter File Name : ")
+    sys.exit() name=input("Enter File Name : ")
         #Copying The File to its dataBase
         copyfile(given,path+"/"+name+".wav")
+
+
+
+
 
 
