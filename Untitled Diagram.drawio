@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-08T08:40:59.376Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="UI3-fr9Na0Ov8yM_-KXo" version="13.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-08T08:47:26.478Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="8fFWqYMkvru09MRDua-v" version="13.6.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="3376" dy="3361" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -719,6 +719,36 @@
         </mxCell>
         <mxCell id="Z3ZYtaafBX35xaJqEpk3-212" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.006;entryY=0.143;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Z3ZYtaafBX35xaJqEpk3-208" target="Z3ZYtaafBX35xaJqEpk3-174">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z3ZYtaafBX35xaJqEpk3-222" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Z3ZYtaafBX35xaJqEpk3-211" target="Z3ZYtaafBX35xaJqEpk3-213">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z3ZYtaafBX35xaJqEpk3-213" value="SubClassRastaStack" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1480" y="-294" width="390" height="234" as="geometry" />
+        </mxCell>
+        <mxCell id="Z3ZYtaafBX35xaJqEpk3-214" value="CloseConnection(Unit16_t)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Z3ZYtaafBX35xaJqEpk3-213">
+          <mxGeometry y="26" width="390" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Z3ZYtaafBX35xaJqEpk3-217" value="GetData(string&amp;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Z3ZYtaafBX35xaJqEpk3-213">
+          <mxGeometry y="52" width="390" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Z3ZYtaafBX35xaJqEpk3-218" value="GetData(array&lt;Unsigned char&gt;&amp;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Z3ZYtaafBX35xaJqEpk3-213">
+          <mxGeometry y="78" width="390" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Z3ZYtaafBX35xaJqEpk3-219" value="GetState()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Z3ZYtaafBX35xaJqEpk3-213">
+          <mxGeometry y="104" width="390" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Z3ZYtaafBX35xaJqEpk3-220" value="OpenConnection()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Z3ZYtaafBX35xaJqEpk3-213">
+          <mxGeometry y="130" width="390" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Z3ZYtaafBX35xaJqEpk3-225" value="RastaStack(shared_ptr&lt;ILogger&gt;, SarSetting, RedundancySetting)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Z3ZYtaafBX35xaJqEpk3-213">
+          <mxGeometry y="156" width="390" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Z3ZYtaafBX35xaJqEpk3-226" value="SendData(String&amp;&amp;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Z3ZYtaafBX35xaJqEpk3-213">
+          <mxGeometry y="182" width="390" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Z3ZYtaafBX35xaJqEpk3-221" value="SendData(array&lt;unsigned char &gt;&amp;&amp;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Z3ZYtaafBX35xaJqEpk3-213">
+          <mxGeometry y="208" width="390" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
